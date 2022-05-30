@@ -16,7 +16,9 @@
 ```
 # Starting NextJs Server
 ```
-    cd ./front 
+    cd ./frontend
+    yarn
+    yarn install
     yarn run dev
 ```
 
