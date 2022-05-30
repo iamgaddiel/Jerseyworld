@@ -1,18 +1,19 @@
 # Jerseyworld
 ![JersyWorld]('../../logo.jpeg')
 
-#Techonologies used
+# Techonologies used
 - NextJs(typescript)
 - Strapi
 - yarn
+- Prima
 
-#Description
+# Description
 
 
-#Installation
+# Installation
 **yarn run dev**
 
-#Endpoints
+# Endpoints
 `
     print('welcome')
 `
