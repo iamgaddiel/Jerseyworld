@@ -1,16 +1,16 @@
 # Jerseyworld
 ![JersyWorld](logo.jpeg)
 
-# Techonologies used
+
+# Technologies
 - NextJs(typescript)
 - Strapi
-- yarn
 - Prisma
 
 # Description
 
 # Starting Strapi Server
-```bash
+```shell
     cd ./backend
     yarn run develop`
 ```
