@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_items",
+  "info": {
+    "singularName": "order-item",
+    "pluralName": "order-items",
+    "displayName": "Order Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "created": {
+      "type": "datetime",
+      "private": true
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 1,
+      "min": 1,
+      "required": true
+    },
+    "jersey": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::jersey.jersey"
+    },
+    "customization": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customization.customization",
+      "mappedBy": "order_item"
+    }
+  }
+}

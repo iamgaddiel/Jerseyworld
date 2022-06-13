@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jerseys",
+  "info": {
+    "singularName": "jersey",
+    "pluralName": "jerseys",
+    "displayName": "Jersey",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Unisex"
+      ],
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "team": {
+      "type": "string",
+      "required": true
+    },
+    "condition": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order_id": {
+      "type": "string",
+      "unique": true
+    },
+    "is_delivered": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "total": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0,
+      "required": false
+    }
+  }
+}
