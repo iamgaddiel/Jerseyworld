@@ -1,0 +1,6 @@
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=r6cOt6ywtqyf36wzXPsgmA==,QPvEdtHU+7EQjbY9sd9Sbw==,3qpzrDxcc1WALXgvwb0Mfw==,fkyg1gR5+v+X/Poc0YoimA==
+API_TOKEN_SALT=TuN2wfJmvVQPgZBWjaBpgw==
+ADMIN_JWT_SECRET=fyC7rjEn2/sqi/Y3Mp5uIQ==
+JWT_SECRET=+gRadrAJ0hiNjoRDL5Pg5g==
