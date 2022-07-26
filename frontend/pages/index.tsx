@@ -9,9 +9,7 @@ const Home = () => (
         This is where i will place the advert banner
       </div>
 
-      <div>
-        {['Product 1', 'Product 2', 'Product 3', 'Product 4', 'Product 5'].map((product) => product)}
-      </div>
+      <Product />
       
       <FooterBanner />
     </>
